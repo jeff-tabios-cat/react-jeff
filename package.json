@@ -2,12 +2,13 @@
   "name": "course-directory",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://jeff-tabios-cat.github.io/react-jeff",
   "dependencies": {
     "gh-pages": "^4.0.0",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
     "react-router-dom": "^4.3.1",
-    "react-scripts": "2.1.1"
+    "react-scripts": "^5.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
