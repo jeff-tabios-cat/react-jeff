@@ -20,11 +20,11 @@ const App = () => (
       <Header />
       
       <Switch>
-        <Route exact path="/react-jeff/" component={Home} />
-        <Route path="/react-jeff/about" render={ () => <About title='About' /> } />
-        <Route exact path="/react-jeff/teachers" component={Teachers} />
-        <Route path="/react-jeff/teachers/:topic/:name" component={Featured} />
-        <Route path="/react-jeff/courses" component={Courses} />
+        <Route exact path="/" component={Home} />
+        <Route path="/about" render={ () => <About title='About' /> } />
+        <Route exact path="/teachers" component={Teachers} />
+        <Route path="/teachers/:topic/:name" component={Featured} />
+        <Route path="/courses" component={Courses} />
         <Route component={NotFound} />
       </Switch>
     </div>
